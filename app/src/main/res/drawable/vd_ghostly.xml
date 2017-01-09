@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <path
+        android:fillColor="#46c5ff"
+        android:pathData="M 0 0 H 80 V 80 H 0 V 0 Z" />
+    <group android:name="ghostlybody"
+        >
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M53.149,25.774C53.12,25.28,53,24.804,53,24.335v-1.382C53,16.194,47.36,11,39.781,11h-1.01
+C31.094,11,25,16.194,25,22.953v17.154C25,41.987,26.714,44,28.689,44h0.188C31.008,44,32,41.879,32,40.106v-1.525
+c0-0.628,0.349-1.315,1.065-1.315l0.663-0.407c0.424,0,2.271,0.89,2.271,1.723v1.525C36,41.837,37.031,44,39.182,44h0.188
+C41.447,44,42,41.873,42,40.106v-1.525C42.799,36.858,43.879,38,44.428,38l-1.09-0.349c0.785,0,1.662,0.232,1.662,0.931v1.525
+C45,41.952,47.646,44,49.674,44h0.188C51.959,44,53,41.833,53,40.106v-9.029C53,29.315,53.251,27.55,53.149,25.774z" />
+        <group android:name="ghostlyeye"
+            android:translateX="40"
+            android:translateY="25">
+            <group android:name="ghostlyeyepivot"
+                android:translateX="-40"
+                android:translateY="-25">
+                <path
+                    android:fillColor="#000000"
+                    android:pathData="M 43.308 23.866 C 44.1413976875 23.866 44.817 24.5416023125 44.817 25.375 C 44.817 26.2083976875 44.1413976875 26.884 43.308 26.884 C 42.4746023125 26.884 41.799 26.2083976875 41.799 25.375 C 41.799 24.5416023125 42.4746023125 23.866 43.308 23.866 Z" />
+                <path
+                    android:fillColor="#000000"
+                    android:pathData="M 33.728 23.866 C 34.5613976875 23.866 35.237 24.5416023125 35.237 25.375 C 35.237 26.2083976875 34.5613976875 26.884 33.728 26.884 C 32.8946023125 26.884 32.219 26.2083976875 32.219 25.375 C 32.219 24.5416023125 32.8946023125 23.866 33.728 23.866 Z" />
+            </group>
+        </group>
+    </group>
+    <group android:name="ghostlyshadow"
+        android:scaleX="0.75"
+        android:scaleY="0.6"
+        android:translateX="40"
+        android:translateY="60">
+        <group android:name="ghostlypivot"
+            android:translateX="-40"
+            android:translateY="-55"
+            >
+            <path
+
+                android:fillColor="#42b5e9"
+                android:pathData="M 39.087 52.871 C 46.8670352709 52.871 53.174 54.0359550809 53.174 55.473 C 53.174 56.9100449191 46.8670352709 58.075 39.087 58.075 C 31.3069647291 58.075 25 56.9100449191 25 55.473 C 25 54.0359550809 31.3069647291 52.871 39.087 52.871 Z" />
+        </group>
+    </group>
+</vector>
