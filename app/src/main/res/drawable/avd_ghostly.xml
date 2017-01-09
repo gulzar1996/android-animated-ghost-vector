@@ -12,9 +12,9 @@
                     android:repeatMode="reverse"
                     android:repeatCount="infinite"
                     android:propertyName="translateY"
-                    android:interpolator="@android:interpolator/linear"
+                    android:interpolator="@android:interpolator/accelerate_decelerate"
                     android:valueTo="6"
-                    android:duration="800" />
+                    android:duration="700" />
             </set>
         </aapt:attr>
     </target>
@@ -24,15 +24,15 @@
             <set
                 >
                 <objectAnimator
-                    android:duration="800"
+                    android:duration="700"
                     android:interpolator="@android:interpolator/linear"
                     android:propertyName="scaleX"
                     android:valueFrom="0.75"
                     android:repeatMode="reverse"
                     android:repeatCount="infinite"
-                    android:valueTo="0.9"/>
+                    android:valueTo="0.94"/>
                 <objectAnimator
-                    android:duration="800"
+                    android:duration="700"
                     android:interpolator="@android:interpolator/linear"
                     android:propertyName="scaleY"
                     android:valueFrom="0.6"
